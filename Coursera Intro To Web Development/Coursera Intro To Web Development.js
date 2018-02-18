@@ -126,3 +126,18 @@ src = ''
 <!-- Commment goes here -->
 // HTML comments are wrapped with in arrows. Arrow exclamation mark at beggining and just arrow at end.
 // Is different than the <comment></comment> tag. Which displays text.
+
+// Select Tag
+<select></select>
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+// This creates a drop down list.
+// Select is a form control and can be used within (ie wrapped) a <form></form>
+// Wraps <option></option> tags. 
+
+// Option Tag 
+<option value="volvo">Volvo</option>
