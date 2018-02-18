@@ -85,3 +85,44 @@ src = ''
 // Image Tag
 <img></img>
 <img src="kizuna_ai_chibi.jpg"/>
+<img src="https://raw.githubusercontent.com/JeffreyBodin/Notes/master/Coursera%20Intro%20To%20Web%20Development/kizuna_ai_chibi.jpg"/>
+<img src="kizuna_ai_chibi.jpg" alt="AiGames"/>
+<a href="https://www.youtube.com/channel/UCbFwe3COkDrbNsbMyGNCsDg"><img src="kizuna_ai_chibi.jpg" alt="AiGames"/></a>
+// Image tags like above kizuna ai image will display once their source is defined by the src attribute.
+// The images will be sourced by defualt to the directory where the html file is located.
+// Other child/parent directories may be defined too.
+// Images can be displayed from a direct link too. Ie kizuna ai image hosted in my github repository.
+// Alt is an attribute that displays corresponding text in place of the image in err.
+// Using an anchor tag with an img tag wrapped inside will display the image as a replacement for displayed link text.
+// Ie the link's text pointing to the url would be instead the src'd image.
+
+// HTML Table
+<table></table>
+// Similar to an excel table.
+// Needs defined rows with the tr (table row tag)
+// Needs defined data with td (table data)
+
+// Border Attribute
+<table border=""></table>
+<table border="1"></table>
+<table border="2"></table>
+<table border="3" style="border: solid;"></table>
+//This attribute sets the border surrounding the table.
+// Value of 1 sets the border. Border thickness corresponds proportionally to value.
+// The style attribute modifies the border. 
+// Syles are setup similar too js object key value pairs but with a ; instead of a comma to end. Similar to how statements end.
+
+// Table Row Tag
+<tr></tr>
+<tr>
+    <td>Column A Row 1</td><td>Column B Row 1</td>
+</tr>
+// Table Data Tag
+<td></td>
+<td>Column A Row 1</td>
+// dt is wrapped within the tr tag. See above.
+
+// HTML Comments 
+<!-- Commment goes here -->
+// HTML comments are wrapped with in arrows. Arrow exclamation mark at beggining and just arrow at end.
+// Is different than the <comment></comment> tag. Which displays text.
