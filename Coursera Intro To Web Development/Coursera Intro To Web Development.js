@@ -137,7 +137,30 @@ src = ''
 </select>
 // This creates a drop down list.
 // Select is a form control and can be used within (ie wrapped) a <form></form>
-// Wraps <option></option> tags. 
+// Wraps <option></option> tags.
+// Select tag creates a selection. So is used for drop down lits in website ie selections of stuff. Like in the amazon search bar example. 
 
 // Option Tag 
 <option value="volvo">Volvo</option>
+
+// CSS
+// Cascading Style Sheets
+// 3 kinds of CSS Inline, Internal, External
+
+// Inline (less desirable/harder to use)
+<h1 style="color:lightpink;></h1>
+<h1 style="color:lightpink; text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-size: 350%;">Nani!!?!?!? HTML Tables and Shit Yo</h1>
+// Uses the sytles inline with the html tags. Not great readability as above shows.
+// See above example of single one changes text color of header 1 to light pink. Goes in the first section of the defined header <h1 ... etc > tag.
+// Above example of inline, but with multiple style additions, 3.
+// Styles uses key value pairs like js. Color: = key. blue = value. Defined same as js object's properties.
+
+// Internal uses a <style> element in <head> section of html.
+// External uses an external CSS file. Best practice.
+
+
+
+// Module 3: Introduction to Programming Using Javascript
+
+// Introduction
+// 
